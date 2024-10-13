@@ -1,0 +1,150 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color: #e9ecef;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+main {
+    flex: 3;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #003366;
+    font-size: 1.8em;
+    margin-top: 20px;
+    padding: 10px;
+    border-bottom: 2px solid #007BFF;
+    background-color: #e2f0fe;
+}
+
+h3 {
+    color: #0056b3;
+    font-size: 1.5em;
+    margin-top: 15px;
+    padding: 5px;
+    background-color: #d1ecf1;
+    border-left: 4px solid #17a2b8;
+}
+
+p {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #003366;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+nav a {
+    display: block;
+    color: #003366;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+img {
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Section-specific styles */
+#history {
+    background-color: #e9ffe9;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#administration {
+    background-color: #ffe9e9;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#economy {
+    background-color: #e9e9ff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#culture {
+    background-color: #fff3cd;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#transportation {
+    background-color: #d1ecf1;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#education {
+    background-color: #f1e7d1;
+    padding: 15px;
+    border-radius: 8px;
+}
