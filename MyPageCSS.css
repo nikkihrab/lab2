@@ -131,10 +131,61 @@ img {
     border-radius: 8px;
 }
 
-#culture {
-    background-color: #fff3cd;
-    padding: 15px;
-    border-radius: 8px;
+#climate {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 0.9em; 
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 4px; 
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+tr:nth-child(odd) {
+    background-color: #e0f7fa; 
+}
+
+tr:nth-child(3n) {
+    background-color: #ffeb3b; 
+}
+
+tr:nth-child(3n + 1) {
+    background-color: #ffe0b2; 
+}
+
+tr:nth-child(3n + 2) {
+    background-color: #c8e6c9; 
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.source {
+    text-align: right;
+    font-style: italic;
+    margin-top: 10px;
 }
 
 #transportation {
