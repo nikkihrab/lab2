@@ -6,7 +6,31 @@
     <meta name="description" content="Сторінка про Х'юстон">
     <meta name="keywords" content="Хюстон, адміністративний устрій, інформація">
     <title>Х'юстон - Адміністративний устрій</title>
+    <style>
+        #history {
+            background-color: #e9ffe9;
+            padding: 15px;
+            border-radius: 8px;
+            height: 200px; /* For testing visibility */
+        }
+        .transform-section {
+            transform: translateY(50px); /* Start position */
+            opacity: 0; /* Start with transparent */
+            animation: slideIn 1s forwards; /* Call animation */
+            animation-delay: 0.5s; /* Delay before starting the animation */
+        }
 
+        @keyframes slideIn {
+            0% {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
     <link rel="stylesheet" href="MyPageCSS.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
