@@ -133,10 +133,26 @@ img {
     padding: 20px;
 }
 
-.image_cont {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+.img_cont {
+    display: flex; 
+    justify-content: space-between; 
+    background-color: #f0f0f0; 
+    padding: 10px; 
+}
+
+.img_cont img {
+    margin-right: 20px; 
+    width: 330px; 
+    height: auto; 
+    transition: transform 0.5s ease;/
+}
+
+.img_cont img:hover {
+    transform: rotate(36deg); 
+}
+
+.img_cont img:last-child {
+    margin-right: 0; 
 }
 
 h2 {
