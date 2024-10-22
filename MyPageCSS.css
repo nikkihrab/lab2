@@ -110,6 +110,7 @@ nav a:hover {
 img {
     margin-bottom: 15px;
     border-radius: 8px;
+    align: center;
 }
 #history {
     background-color: #ffo9e9;
@@ -135,18 +136,20 @@ img {
 
 .img_cont {
     display: flex;
-    gap: 20px; /* Space between images */
-    background-color: #d3d3d3; /* Light gray background */
+    gap: 40px; 
+    background-color: #d3d3d3; 
     padding: 10px;
 }
 
 .img_cont img {
-    width: 100px; /* Set image width */
-    transition: transform 0.5s ease; /* Smooth transition for rotation */
+    width: 150px;
+    height: auto; 
+    align: center;
+    transition: transform 0.5s ease; 
 }
 
 .img_cont img:hover {
-    transform: rotate(360deg); /* Rotate 360 degrees on hover */
+    transform: rotate(360deg); 
 }
 
 h2 {
