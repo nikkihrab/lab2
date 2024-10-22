@@ -112,11 +112,26 @@ img {
     border-radius: 8px;
 }
 
-/* Section-specific styles */
 #history {
     background-color: #e9ffe9;
     padding: 15px;
     border-radius: 8px;
+}
+.transform-section {
+    transform: translateY(50px); /* Start position */
+    opacity: 0; /* Start with transparent */
+    animation: slideIn 1s forwards; /* Call animation */
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 #administration {
