@@ -142,7 +142,7 @@ img {
 
 .img_cont img {
     margin-right: 20px; 
-    width: 330px; 
+    width: 150px; 
     height: auto; 
     transition: transform 0.5s ease;/
 }
@@ -152,7 +152,7 @@ img {
 }
 
 .img_cont img:last-child {
-    margin-right: 0; 
+    margin-right: 10; 
 }
 
 h2 {
