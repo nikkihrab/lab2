@@ -134,25 +134,19 @@ img {
 }
 
 .img_cont {
-    display: flex; 
-    justify-content: space-between; 
-    background-color: #f0f0f0; 
-    padding: 10px; 
+    display: flex;
+    gap: 20px; /* Space between images */
+    background-color: #d3d3d3; /* Light gray background */
+    padding: 10px;
 }
 
 .img_cont img {
-    margin-right: 20px; 
-    width: 150px; 
-    height: auto; 
-    transition: transform 0.5s ease;/
+    width: 100px; /* Set image width */
+    transition: transform 0.5s ease; /* Smooth transition for rotation */
 }
 
 .img_cont img:hover {
-    transform: rotate(36deg); 
-}
-
-.img_cont img:last-child {
-    margin-right: 10; 
+    transform: rotate(360deg); /* Rotate 360 degrees on hover */
 }
 
 h2 {
