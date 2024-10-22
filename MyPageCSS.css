@@ -136,15 +136,16 @@ img {
 
 .img_cont {
     display: flex;
+    justify-content: center; 
+    align-items: center; 
     gap: 40px; 
     background-color: #d3d3d3; 
     padding: 10px;
 }
 
 .img_cont img {
-    width: 150px;
-    height: auto; 
-    align: center;
+    width: 180px;
+    height: auto;
     transition: transform 0.5s ease; 
 }
 
