@@ -110,7 +110,8 @@ nav a:hover {
 img {
     margin-bottom: 15px;
     border-radius: 8px;
-    align: center;
+    justify-content: center; 
+    align-items: center;
 }
 #history {
     background-color: #ffo9e9;
