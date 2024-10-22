@@ -7,17 +7,34 @@
     <meta name="keywords" content="Хюстон, адміністративний устрій, інформація">
     <title>Х'юстон - Адміністративний устрій</title>
     <style>
+       table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            transition: transform 0.3s;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        td:hover {
+            transform: rotate(5deg); 
+        }
         #history {
             background-color: #e9ffe9;
             padding: 15px;
             border-radius: 8px;
-            height: 200px; /* For testing visibility */
+            height: 200px; 
         }
         .transform-section {
-            transform: translateY(50px); /* Start position */
-            opacity: 0; /* Start with transparent */
-            animation: slideIn 1s forwards; /* Call animation */
-            animation-delay: 0.5s; /* Delay before starting the animation */
+            transform: translateY(50px); 
+            opacity: 0;
+            animation: slideIn 4s forwards; 
+            animation-delay: 1s; 
         }
 
         @keyframes slideIn {
