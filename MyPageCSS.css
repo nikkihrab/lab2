@@ -111,6 +111,12 @@ img {
     margin-bottom: 15px;
     border-radius: 8px;
 }
+#history {
+    background-color: #ffo9e9;
+    padding: 15px;
+    border-radius: 8px;
+}
+
 #administration {
     background-color: #ffe9e9;
     padding: 15px;
@@ -125,6 +131,12 @@ img {
 
 #climate {
     padding: 20px;
+}
+
+.image_cont {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 h2 {
